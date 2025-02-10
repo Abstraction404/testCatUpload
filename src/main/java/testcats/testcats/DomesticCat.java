@@ -15,11 +15,13 @@ public class DomesticCat extends Cat
         super(name, age, species);
     }
 
+    @Override
     public String talk()
     {
         return "meow";
     }
 
+    @Override
     public void hunt()
     {
         System.out.println("I am " + name + ", a " + age + " year old " + species + ". They only feed me can food :(");
